@@ -7,7 +7,7 @@ body::after{
     left: 0;
     bottom: 0;
     right: 0;
-    background: url(thread.jpg);
+    background: url(bobbins.jpg);
     background-size: 100%;
     opacity: .5;
     content: "";
@@ -15,13 +15,28 @@ body::after{
   }
 
 form {
-  background-color:	#2F5B78;
   border-width: 5px;
   border-style: solid;
   margin: auto;
   width: 500px;
-  padding: 5px;
+  display: block;
+
   border-radius: 10px;
+}
+#banner{
+  background-color:	#C1CDD3;
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+#content{
+  background-color: white;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
 }
 input {
   border-radius: 5px;

@@ -7,3 +7,5 @@ Goals:
 -process image using kmeans color quantization to reduce the number of thread colors needed
 -match colors of processed image to corresponding DMC embroidery floss color
 -display image as grid for pattern
+
+Background Photos by Terri Bleeker and Karly Santiago on Unsplash
