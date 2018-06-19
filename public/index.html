@@ -11,18 +11,18 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form  action="/upload" method="POST">
           <div id="banner">
             <h1> Upload your Photo</h1>
           </div>
           <div id="content">
             <label for="name"> Name of Image: </label>
             <br>
-            <input id="name" type="text">
+            <input id="name" name="name" type="text">
             <br>
             <label for="colors">Number of Colors:</label>
             <br>
-            <input id="colors" type="number" min="2" max="20">
+            <input id="colors" name="colors" type="number" min="2" max="20">
             <br>
             <input id="submit" type="submit" value="Make Pattern">
           </div>
