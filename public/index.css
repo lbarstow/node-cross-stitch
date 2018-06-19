@@ -1,9 +1,28 @@
-body{
-  background-image: url(thread.jpg);
-  background-size: 100%;
+body {
+  text-align: center;
 }
+body::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(thread.jpg);
+    background-size: 100%;
+    opacity: .5;
+    content: "";
+    z-index: -1;
+  }
+
 form {
-  background-color: 	#e6e6fa;
-  justify-content: center;
+  background-color:	#2F5B78;
+  border-width: 5px;
+  border-style: solid;
+  margin: auto;
   width: 500px;
+  padding: 5px;
+  border-radius: 10px;
+}
+input {
+  border-radius: 5px;
 }
