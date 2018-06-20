@@ -13,21 +13,34 @@ body::after{
     content: "";
     z-index: -1;
   }
+  h1{
+    margin:0px;
+  }
+.container{  border-width: 5px;
+  border-style: solid;
+  margin: auto;
+  width: 500px;
+  display: block;
+  border-radius: 10px;
 
-form {
+
+}
+/* form {
   border-width: 5px;
   border-style: solid;
   margin: auto;
   width: 500px;
   display: block;
   border-radius: 10px;
-}
+   padding-top: 5px;
+
+} */
 #banner{
   background-color:	#C1CDD3;
   width: 100%;
-  margin: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: solid;
 }
 #content{
   background-color: white;
@@ -37,4 +50,14 @@ form {
 }
 input {
   border-radius: 5px;
+  border-style: solid;
+}
+#submit{
+  border-color: black;
+  background-color:	#C1CDD3;
+  font-size: 12px;
+  margin: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
 }
