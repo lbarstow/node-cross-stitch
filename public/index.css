@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  font-family: "Bookman";
+  font-size: 16px;
 }
 body::after{
     position: absolute;
@@ -22,19 +24,8 @@ body::after{
   width: 500px;
   display: block;
   border-radius: 10px;
-
-
 }
-/* form {
-  border-width: 5px;
-  border-style: solid;
-  margin: auto;
-  width: 500px;
-  display: block;
-  border-radius: 10px;
-   padding-top: 5px;
 
-} */
 #banner{
   background-color:	#C1CDD3;
   width: 100%;
@@ -55,7 +46,8 @@ input {
 #submit{
   border-color: black;
   background-color:	#C1CDD3;
-  font-size: 12px;
+  font-family: "Bookman";
+  font-size: 16px;
   margin: 5px;
   border-radius: 5px;
   border-style: solid;
