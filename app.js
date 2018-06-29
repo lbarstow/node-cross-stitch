@@ -1,14 +1,16 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
-var path = require('path');
+const path = require('path');
 const bodyParser= require('body-parser');
-app.use(express.static('public'));
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+//app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}))
 
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.render('index');
 });
 app.post('/upload', (req, res) =>{
   res.send(req.body);
