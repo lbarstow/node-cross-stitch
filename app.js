@@ -3,6 +3,7 @@ const app = express();
 
 const path = require('path');
 const bodyParser= require('body-parser');
+const multer = require('multer');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
@@ -15,6 +16,8 @@ app.get('/', function (req, res) {
 app.post('/upload', (req, res) =>{
   res.send(req.body);
 } );
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
+app.get('*', (req, res) => res.status(200).send({
+  message: 'Welcome to the beginning of nothingness.',
+}));
+
+module.exports = app;

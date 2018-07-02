@@ -9,3 +9,7 @@ Goals:
 -display image as grid for pattern
 
 Background Photos by Terri Bleeker and Karly Santiago on Unsplash
+
+-sequeilize
+-multer
+-body-parser
