@@ -9,7 +9,7 @@ body::after{
     left: 0;
     bottom: 0;
     right: 0;
-    background: url(bobbins.jpg);
+    background: url(./images/bobbins.jpg);
     background-size: 100%;
     opacity: .6;
     content: "";
@@ -21,6 +21,7 @@ body::after{
 .container{  border-width: 5px;
   border-style: solid;
   margin: auto;
+  margin-top: 150px;
   width: 500px;
   display: block;
   border-radius: 10px;
