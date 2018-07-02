@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cross Stitch</title>
+  <head>
+      <meta charset="UTF-8">
+      <title>Cross Stitch</title>
 
-    <link rel="stylesheet" href="index.css">
-    <style>
-        body { padding-top:50px; }
-    </style>
-</head>
-<body>
-    <div class="container">
-      <div id="banner">
-        <h1> Upload your Photo</h1>
-      </div>
-      <form  action="/upload" method="POST">
-          <div id="content">
+      <link rel="stylesheet" href="index.css">
+      <style>
+          body { padding-top:50px; }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <div id="banner">
+          <h1> Upload your Photo</h1>
+        </div>
+        <form  action="/upload" method="POST">
             <label for="name">Name of Image:</label>
             <br>
             <input id="name" name="name" type="text">
@@ -25,9 +24,8 @@
             <input id="colors" name="colors" type="number" min="2" max="20">
             <br>
             <input id="submit" type="submit" value="Make Pattern">
-          </div>
-      </form>
-    </div>
+        </form>
+      </div>
 
-</body>
+  </body>
 </html>
