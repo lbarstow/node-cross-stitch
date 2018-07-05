@@ -13,3 +13,4 @@ Background Photos by Terri Bleeker and Karly Santiago on Unsplash
 -sequeilize
 -multer
 -body-parser
+node v10.5.0
